@@ -35,27 +35,6 @@ DynamicFormGenerator/ ├── exercise1/ │ ├── index.html │ ├─�
 ### 🔧 Step 1: Install Dependencies
 ```bash
 npm install
-🚀 Step 2: Start Local Server
-If using live-server:
-
-bash
-Copy
-Edit
-npm start
-Or, if using lite-server:
-
-bash
-Copy
-Edit
-npm run dev
-Then navigate to:
-
-bash
-Copy
-Edit
-http://localhost:3000/exercise1/
-http://localhost:3000/exercise2/
-You can also open the index.html files directly in your browser if not using a dev server.
 
 🎥 Loom Walkthrough Videos
 Each video demonstrates:
