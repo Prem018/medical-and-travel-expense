@@ -1,71 +1,84 @@
 # Dynamic Form Generator
 
+This project includes two dynamic web exercises implemented using **HTML, CSS, and JavaScript**, as per the assignment requirements. The pages are designed to render content similar to the provided PDFs, with support for dynamic data rendering, responsive layout, and reusable styling.
+
+---
+
+## 📽 Loom Demo Video
+
+🎥 [Click here to watch the demo on Loom](https://www.loom.com/share/ce8e4bfa0a4040ef995796e36b6ff79b?sid=95d47cff-9d4e-4a1f-bd0a-d322e3c56b2e)
+
+---
+
 ## 📌 Project Overview
 
-This project is a part of the **Frontend Assignment** requiring the implementation of two exercises based on provided PDF designs. The focus is on dynamic content rendering using **HTML**, **CSS**, and **JavaScript**, with the output closely resembling the reference layouts.
-
-### 🎯 Features
-
-- Fully responsive layout using CSS Flex/Grid.
-- Dynamic table rendering based on different datasets.
-- Structured components like header, footer, page number, etc.
-- Reusable form components and clean code organization.
-- Cross-browser compatible.
-- Executable using simple local dev server (no backend required).
+- Dynamic rendering of user data in table format
+- Supports varying data sets (1 to many elements)
+- Responsive design and page layout
+- Includes image, header, footer, and page numbers
+- Built fully using vanilla HTML, CSS, and JavaScript
 
 ---
 
-## 🧩 Project Structure
+## 🔧 Tech Stack
 
-DynamicFormGenerator/ ├── exercise1/ │ ├── index.html │ ├── style.css │ └── script.js ├── exercise2/ │ ├── index.html │ ├── style.css │ └── script.js ├── assets/ │ └── (Images and media used) ├── data/ │ └── (JSON/data files for dynamic content if applicable) ├── package.json └── README.md
-
----
-
-## 🛠️ Tech Stack
-
-- **HTML5**
-- **CSS3**
-- **JavaScript (ES6)**
-- **Live Server / Lite Server** for local development
+- HTML
+- CSS
+- JavaScript
 
 ---
 
-## 🧪 How to Run
+## 🧠 Understanding & Assumptions
 
-### 🔧 Step 1: Install Dependencies
-```bash
-npm install
+- PDF format was analyzed to extract:
+  - Header/Footer
+  - Dynamic table entries
+  - Fixed image and style layout
+- Assumed table data is passed from a static JS array
 
-🎥 Loom Walkthrough Videos
-Each video demonstrates:
+---
 
-Understanding of the problem and assumptions made
+## 💡 Dynamic Data Test
 
-Execution in the browser with different dynamic datasets
+- Tested with 1, 5, and 10 rows
+- All rows rendered dynamically
+- Pagination and layout remain consistent
 
-Code walk-through (HTML, CSS, JS) explaining how each feature is implemented
+---
 
-Challenges faced and resolutions
+## 🧱 Folder Structure
 
-🔗 Exercise 1 Video
-Loom Video Link – Exercise 1
+DynamicFormGenerator/ ├── index.html ├── style.css ├── script.js ├── assets/ │ └── logo.png ├── data/ │ └── users.js └── README.md
 
-🔗 Exercise 2 Video
-Loom Video Link – Exercise 2
 
-✅ Submission Checklist
- Code replicates the PDF designs accurately
+---
 
- Dynamic table rendering with different datasets
+## 🚀 How to Run the Project
 
- Header, footer, and styling match provided layout
+1. Clone the repository:
+   ```bash
+   git clone <https://github.com/Prem018/medical-and-travel-expense.git>
+   cd DynamicFormGenerator
+Open index.html in any modern web browser.
 
- Narrated Loom videos included for both exercises
+✅ Features Demonstrated
+Header/Footer with consistent style
 
- GitHub repo submitted before deadline
+Auto-incremented page numbers
 
-📬 Contact
-Premsing
-📧 premsing.venkat@campusuvce.in
-📞 +91 7847881832
-📍 University Visvesvaraya College of Engineering, Bengaluru
+Logo and branding
+
+Dynamic table row rendering
+
+Fully responsive design
+
+📍 Challenges & Resolutions
+Page layout shift on dynamic rendering — resolved with flexbox
+
+Data overflow in long rows — handled with word-wrap CSS
+
+📁 Author
+Premsing pawar
++91 7847881832
+premsing.venkat@campusuvce.in
+
